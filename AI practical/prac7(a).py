@@ -1,6 +1,8 @@
 import random
 from colorama import init, Fore
 
+# program to suffle deck of cards
+
 # Initialize colorama with autoreset
 init(autoreset=True)
 
