@@ -1,3 +1,8 @@
+'''AIM: Feed Forward Back propagation Neural Network 
+● Implement the Feed Forward Back propagation algorithm to train a neural network 
+● Use a given dataset to train the neural network for a specific task'''
+
+
 import numpy as np 
 
 class NeuralNetwork(): 

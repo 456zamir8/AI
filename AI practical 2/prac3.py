@@ -1,3 +1,8 @@
+ 
+'''Aim:Implement the decision tree learning algorithm to build a decision tree for a given dataset.
+    Evaluate the accuracy and efficiency on the test data set.'''
+
+
 import pandas as pd
 from sklearn import tree
 from sklearn.tree import DecisionTreeClassifier

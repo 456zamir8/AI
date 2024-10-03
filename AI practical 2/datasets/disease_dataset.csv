@@ -1,0 +1,11 @@
+sore_throat,fever,swollen_gland,congestion,headache,diagnosis
+1,1,1,1,1,Step throat
+0,0,0,1,1,Allergy
+1,1,0,1,0,Cold
+1,0,1,0,0,Step throat
+0,1,0,1,0,Cold
+0,0,0,1,0,Allergy
+0,0,1,0,0,Step throat
+1,0,0,1,1,Allergy
+0,1,0,1,1,Cold
+1,1,0,1,1,Cold

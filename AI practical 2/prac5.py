@@ -1,3 +1,8 @@
+'''Aim: Implement the SVM algorithm for binary classification.
+    Train a SVM Model using the given datasets.
+    Evaluate the performance on test data and analyze the results.'''
+
+
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split

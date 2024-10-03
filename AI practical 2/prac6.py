@@ -1,18 +1,24 @@
+AIM: Adaboost Ensemble Learning 
+1.Implement the Adaboost algorithm to create an ensemble of weak classifiers.
+2.Train the ensemble model on a given dataset and evaluate its performance.
+3.Compare the results with individual weak classifiers. 
+
+
 import pandas as pd
 from sklearn import model_selection
 from sklearn.ensemble import AdaBoostClassifier
 
-# Load your own dataset (car buying dataset)
+
 url = r"C:\Users\zamir\zamir\AI\AI practical 2\datasets\car_buying_dataset.csv"
 dataframe = pd.read_csv(url)
 
 # Separate features (X) and target variable (Y)
-X = dataframe.drop('buy_car', axis=1)  # Features: All columns except 'buy_car'
-Y = dataframe['buy_car']               # Target: 'buy_car' column
+X = dataframe.drop('buy_car', axis=1)
+Y = dataframe['buy_car']
 
 # Convert categorical features to numerical form and store the columns
 X = pd.get_dummies(X)
-feature_columns = X.columns  # Store the feature columns
+feature_columns = X.columns
 
 # Set the parameters for AdaBoost
 seed = 7
