@@ -1,12 +1,14 @@
-AIM: Adaboost Ensemble Learning 
+'''AIM: Adaboost Ensemble Learning 
 1.Implement the Adaboost algorithm to create an ensemble of weak classifiers.
 2.Train the ensemble model on a given dataset and evaluate its performance.
-3.Compare the results with individual weak classifiers. 
+3.Compare the results with individual weak classifiers. '''
 
 
 import pandas as pd
 from sklearn import model_selection
 from sklearn.ensemble import AdaBoostClassifier
+import warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
 
 
 url = r"C:\Users\zamir\zamir\AI\AI practical 2\datasets\car_buying_dataset.csv"
