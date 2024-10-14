@@ -9,8 +9,14 @@ dict_gn = {
     'Fagaras': {'Sibiu': 99, 'Bucharest': 211},
     'Rimnicu Vilcea': {'Sibiu': 80, 'Pitesti': 97},
     'Mehadia': {'Lugoj': 70, 'Drobeta': 75},
+    'Drobeta': {'Mehadia': 75, 'Craiova': 120},
+    'Craiova': {'Drobeta': 120, 'Rimnicu Vilcea': 146, 'Pitesti': 138},
     'Pitesti': {'Rimnicu Vilcea': 97, 'Bucharest': 101},
-    'Bucharest': {'Fagaras': 211, 'Pitesti': 101},
+    'Bucharest': {'Fagaras': 211, 'Pitesti': 101, 'Urziceni': 85, 'Giurgui': 90},
+    'Urziceni': {'Bucharest': 85, 'Vaslui': 142, 'Hirsova': 98},
+    'Hirsova': {'Urziceni': 98, 'Eforie': 86},
+    'Vaslui': {'Urziceni': 142, 'Iasi': 92},
+    'Iasi': {'Vaslui': 92, 'Neamt': 87}
 }
 
 # storing heuristics values 
@@ -25,5 +31,11 @@ dict_hn = {
     'Rimnicu Vilcea': 193,
     'Mehadia': 241,
     'Pitesti': 100,
-    'Bucharest': 0
+    'Bucharest': 0,
+    'Drobeta': 200,
+    'Craiova': 287,
+    'Urziceni': 111,
+    'Hirsova': 268,
+    'Vaslui': 116,
+    'Iasi': 224
 }
