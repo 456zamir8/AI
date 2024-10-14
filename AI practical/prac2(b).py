@@ -16,7 +16,7 @@ def tower_of_hanoi(n, source, destination, auxiliary):
     print(f"Move disk {n} from {source} to {destination}")
 
     # Step 3: Move the n-1 disks from auxiliary to destination, using source as auxiliary
-    tower_of_hanoi(n - 1, auxiliary, destination, source)a
+    tower_of_hanoi(n - 1, auxiliary, destination, source)
 
     print(f"destination disk{destination}")
 
