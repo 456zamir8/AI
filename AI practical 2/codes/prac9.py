@@ -1,3 +1,6 @@
+'''implement the Association rule mining algorithm to find the frequent dataset. 
+Generate association rules from the frequent item set and calculate their support.'''
+
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
